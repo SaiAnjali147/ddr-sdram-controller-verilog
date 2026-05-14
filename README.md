@@ -272,27 +272,7 @@ DDR memory operations follow a strict sequence:
 An FSM ensures these rules are **always** followed correctly.
 
 ### The Five States of This Controller
-    ┌──────────┐
-    │   IDLE   │ ◄──────────────┐
-    └────┬─────┘                │
-         │                      │
-     Command                    │
-         │                      │
-    ┌────▼─────┐                │
-    │  ACTIVE  │                │
-    └────┬─────┘                │
-         │                      │
-  ┌──────┴──────┐              │
-  │             │              │
-┌────▼────┐   ┌───▼─────┐        │
-│  READ   │   │  WRITE  │        │
-└────┬────┘   └───┬─────┘        │
-│            │              │
-└──────┬─────┘              │
-│                    │
-┌──────▼────────┐           │
-│  PRECHARGE    │───────────┘
-└───────────────┘
+  <img width="1402" height="1122" alt="image" src="https://github.com/user-attachments/assets/1dd0ce5f-9e1b-41a8-972f-ce71c2c314d9" />
 
 ### State-by-State Explanation
 
@@ -1947,7 +1927,7 @@ Third Year
 
 **Contact:**
 - Email: saianjali1307@gmail.com
-- LinkedIn: https://www.linkedin.com/in/sai-anjali-3765a432a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- LinkedIn: https://www.linkedin.com/in/sai-anjali-yanamala-3765a432a/
 - GitHub: SaiAnjali147
 
 ---
